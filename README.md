@@ -12,7 +12,9 @@ O QCon São Paulo 2019 aconteceu de 06 a 08 de maio, celebrando 10 anos do event
 https://www.infoq.com/br/presentations/saga-arquitetural-do-ifood/ disponível em 06/03/2021
 ```
 
+## Arquitetura exposta na palestra 
 
+<img src="diagrama-ifood-arquitetura.png">
 
 ## Anotações 
 
