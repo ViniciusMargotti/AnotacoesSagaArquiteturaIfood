@@ -20,20 +20,20 @@ https://www.infoq.com/br/presentations/saga-arquitetural-do-ifood/ disponível e
 
 ## Gateway Agent : É o ponto de entrada do sistema.
 ```
-1- Converte do formato externo para o formato interno <br>
-2- Configs de serviços usados internamente <br>
+1- Converte do formato externo para o formato interno
+2- Configs de serviços usados internamente 
 3- Produz eventos em tópicos/filas separados 
 ```
 ## Gataway Core 
 ```
-1- Polling de eventos de integrações legadas <br>
-2- Controle de dispositivos de um restaurante <br>
+1- Polling de eventos de integrações legadas 
+2- Controle de dispositivos de um restaurante 
 3- Validação da transição do status do pedido.  Mapea se o status é viável
 ```
 ## Merchant Connection
 ```
-1- Controla o status do restaurante. <br>
-2- A cada 5 s roda um mapReduce para verificar se o restaurante esta online. <br>
+1- Controla o status do restaurante. 
+2- A cada 5 s roda um mapReduce para verificar se o restaurante esta online. 
 ```
 ## Apache Ignite 
 ```
